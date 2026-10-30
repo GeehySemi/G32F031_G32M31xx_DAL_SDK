@@ -1,0 +1,53 @@
+﻿4918599.190: File generated Fri Jan  9 15:07:37 2026
+
+  0.000: Pass 1 of 1
+  0.000: Starting fragment-style flashloader pass.
+  0.000: Device: D:\Program Files\IAR Systems\Embedded Workbench 8.4\arm\config\flashloader\Geehy\FlashG32F031x8.flash
+  0.016: Flash loader: D:\Program Files\IAR Systems\Embedded Workbench 8.4\arm\config\flashloader\Geehy\FlashG32F031RAM8K.out
+  4.334: FlashInitEntry is at 0x20001FE0
+  4.334: FlashWriteEntry is at 0x20001FE8
+  4.334: FlashEraseWriteEntry is at 0x20001FF0
+  4.334: FlashBreak is at 0x20001FDC
+  4.334: FlashBufferStart is at 0x20000300
+  4.334: FlashBufferEnd is at 0x20001DF4
+  4.334: theFlashParams is at 0x20000048
+  4.334: FlashChecksumEntry not found
+  4.349: FlashSignoffEntry is at 0x20001FF8
+  4.349: page size is 2 (0x2)
+  4.349: filler is 0xff
+  4.349: buffer size is 6900 (0x1af4)  4.349: 
+  4.349: Base of flash at 0x0
+  4.349: SimpleCode records (after offset):
+  4.349:   Record 0: @ 0x0 [10412 (0x28ac) bytes] 0x0 - 0x28ab [60 b 0 20 ... ]
+  4.349: ->init       : base @ 0x0, image size 0x28ac
+  4.349:       Args: (argc = 0)
+  4.362:   timing(init): 0.0000 (CPU) 0.0110 (elapsed)
+  4.362: Transaction list:
+  4.362:   Transaction @ 0x0 + 0x0 (0x1800 bytes) 6 packet(s).
+  4.362:     Will erase 6 block(s):
+  4.362:       0: 0x0  4.362:  (0x400 bytes)
+  4.362:       1: 0x400  4.362:  (0x400 bytes)
+  4.362:       2: 0x800  4.362:  (0x400 bytes)
+  4.362:       3: 0xc00  4.362:  (0x400 bytes)
+  4.362:       4: 0x1000  4.362:  (0x400 bytes)
+  4.362:       5: 0x1400  4.362:  (0x400 bytes)
+  4.362:   Transaction @ 0x1800 + 0x0 (0x10ac bytes) 5 packet(s).
+  4.362:     Will erase 5 block(s):
+  4.362:       0: 0x1800  4.362:  (0x400 bytes)
+  4.362:       1: 0x1c00  4.362:  (0x400 bytes)
+  4.362:       2: 0x2000  4.362:  (0x400 bytes)
+  4.362:       3: 0x2400  4.362:  (0x400 bytes)
+  4.362:       4: 0x2800  4.362:  (0x400 bytes)
+  4.362: ->multi_erase: 6 blocks (0x30 bytes in buffer) [0 0 0]
+  4.397:   timing(erase): 0.0000 (CPU) 0.0340 (elapsed)
+  4.398: ->write      : @ 0x0 (0x1800 bytes, offset 0x0 into block @ 0x0) [60 b 0]
+  4.529:   timing(write): 0.0000 (CPU) 0.0930 (elapsed)
+  4.530: ->multi_erase: 5 blocks (0x28 bytes in buffer) [0 18 0]
+  4.560:   timing(erase): 0.0000 (CPU) 0.0290 (elapsed)
+  4.560: ->write      : @ 0x1800 (0x10ac bytes, offset 0x0 into block @ 0x1800) [22 0 2b]
+  4.654:   timing(write): 0.0000 (CPU) 0.0670 (elapsed)
+  4.654: ->signoff
+  4.661:   timing(signoff): 0.0000 (CPU) 0.0070 (elapsed)
+  4.709: Duration:   0.66 (CPU)   4.71 (elapsed)
+  4.709:   of which on target: 0.0000 (CPU) 0.2410 (elapsed)
+  4.709: Flash loading pass finished
